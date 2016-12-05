@@ -4,22 +4,24 @@ Forked from original repo https://github.com/KimuraTakaumi/digdag-slack-plugin-s
 
 ## How to build
 
-1. Decide the target digdag version and build digdag
+### 1. Decide the target digdag version and build digdag
 
-2. Update build.gradle
+Confirmed with 0.8.22-SNAPSHOT.
+
+### 2. Update build.gradle
 
 ```
 $ cd digdag-plugin/example
 ```
 Update build.gradle for target digdag version and dependencies libralies version.
 
-3. Copy the depended digdag jars into `libs` directory
+### 3. Copy the depended digdag jars into `libs` directory
 
 * digdag-client-X.X.X.jar
 * digdag-plugin-utils-X.X.X.jar
 * digdag-spi-X.X.X.jar
 
-4. build and publish
+### 4. build and publish
 
 ```
 $ ./gradlew clean build publish
@@ -27,7 +29,7 @@ $ ./gradlew clean build publish
 
 This command makes local repository of this plugin jars in `build/repo` directory.
 
-5. Test
+### 5. Test
 
 
 ```
