@@ -1,4 +1,4 @@
-package io.digdag.plugin.example;
+package io.digdag.plugin.slack;
 
 import java.util.Arrays;
 import java.util.List;

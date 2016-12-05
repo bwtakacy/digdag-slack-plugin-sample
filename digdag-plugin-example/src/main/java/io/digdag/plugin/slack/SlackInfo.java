@@ -1,4 +1,4 @@
-package io.digdag.plugin.example;
+package io.digdag.plugin.slack;
 
 public class SlackInfo {
     private String channel;
